@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "extract": "formatjs extract 'src/App.js'  --out-file src/lang/en.json"
   },
   "eslintConfig": {
     "extends": [
