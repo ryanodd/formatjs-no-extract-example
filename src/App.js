@@ -1,3 +1,4 @@
+import { FormattedMessage } from 'react-intl'
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <FormattedMessage
+          default="hellooooooo world!"
+        />
         <a
           className="App-link"
           href="https://reactjs.org"
