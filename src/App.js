@@ -11,6 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <FormattedMessage
+          id="stringId"
           default="hellooooooo world!"
         />
         <a
